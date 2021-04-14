@@ -9,3 +9,7 @@ commands:
     aliases:
       - buy
     description: Ein kleiner Shop
+  resetworld:
+    aliases:
+      - rswd
+    description: Resetet alle Welten

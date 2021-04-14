@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SurvivalProjectHelper">
+    <output-path>$PROJECT_DIR$/compile/SurvivalProjectHelper</output-path>
+    <root id="archive" name="SurvivalProjectHelper.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/plugin.yml" />
+      <element id="library" level="module" name="spigot-1.16.5.jar" module-name="SurvivalProjectHelper" />
+      <element id="module-output" name="SurvivalProjectHelper" />
+    </root>
+  </artifact>
+</component>
