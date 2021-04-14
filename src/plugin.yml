@@ -1,0 +1,11 @@
+name: SurvivalProjectHelper
+version: 1.0
+authors:
+  - xLixon
+  - yHighPing
+main: de.xLixon.yHighPing.Main.Main
+commands:
+  shop:
+    aliases:
+      - buy
+    description: Ein kleiner Shop
