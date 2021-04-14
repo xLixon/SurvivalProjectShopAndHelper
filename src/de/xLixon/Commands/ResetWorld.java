@@ -20,7 +20,7 @@ public class ResetWorld implements CommandExecutor {
             if(args.length < 1){
                 sender.sendMessage(ChatColor.DARK_RED + "Um das Löschen der Welt zu bestätigen, gib " + ChatColor.GREEN + "/resetworld confirm" + ChatColor.DARK_RED + " ein");
             }else{
-                if(args[1].equalsIgnoreCase("confirm")){
+                if(args[0].equalsIgnoreCase("confirm")){
 
                     File overworld = new File("world");
                     File worldNether = new File("world_nether");

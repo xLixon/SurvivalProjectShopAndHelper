@@ -15,7 +15,6 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         registerEvents(Bukkit.getPluginManager());
         getLogger().info(ChatColor.GREEN + "SurvivalProjectHelper by xLixon and yHighPing started successfully");
-        RegisterCommands.registerCommands();
         getCommand("shop").setExecutor(new ChatCommand());
         getCommand("resetworld").setExecutor(new ResetWorld());
     }
@@ -25,10 +24,9 @@ public class Main extends JavaPlugin {
     }
 
     public void registerEvents(PluginManager pm) {
-    	pm.registerEvents(new OPTimOnJoin(), this);
-	}
+        pm.registerEvents(new OPTimOnJoin(), this);
 
-	// hallo
+    }
 
 
 }

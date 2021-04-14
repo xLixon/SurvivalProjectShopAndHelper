@@ -32,7 +32,7 @@ public class ChatCommand implements CommandExecutor {
             Inventory shopInv = Bukkit.createInventory(p, InventoryType.CHEST, ChatColor.AQUA + "Shop");
 
             while (i1 <= 9) {
-                shopInv.setItem(i1, ReturnItem.addItem(Material.GRAY_STAINED_GLASS_PANE, ""));
+                shopInv.setItem(i1, ReturnItem.addItem(Material.GRAY_STAINED_GLASS_PANE, ChatColor.RED + ""));
                 i1++;
             }
             while (i2 <= 26) {
