@@ -35,6 +35,10 @@ public class ChatCommand implements CommandExecutor {
                 shopInv.setItem(i1, ReturnItem.addItem(Material.GRAY_STAINED_GLASS_PANE, ChatColor.RED + ""));
                 i1++;
             }
+
+            shopInv.setItem(10, ReturnItem.addItem(Material.NETHERITE_SCRAP, ChatColor.BLACK + "Netherite Scrap :> " + ChatColor.AQUA + "5 Diamonds"));
+            shopInv.setItem(11, ReturnItem.addItem(Material.DIAMOND, ChatColor.AQUA + "Diamond :> " + ChatColor.GRAY + "5 Iron Ingots"));
+
             while (i2 <= 26) {
                 shopInv.setItem(i2, ReturnItem.addItem(Material.GRAY_STAINED_GLASS_PANE, ""));
                 i2++;
@@ -47,4 +51,6 @@ public class ChatCommand implements CommandExecutor {
 
         return false;
     }
+
+
 }
