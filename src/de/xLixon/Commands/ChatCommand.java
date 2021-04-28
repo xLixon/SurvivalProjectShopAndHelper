@@ -46,9 +46,6 @@ public class ChatCommand implements CommandExecutor {
 
             p.openInventory(shopInv);
 
-// Hallo
-// Hallo
-// Hallo
         }
 
         return false;
